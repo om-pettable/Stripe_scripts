@@ -1,0 +1,22 @@
+{
+	"raw_bucket": "pettable-datalake-raw-staging-us-east-1",
+	"dwh_stripe": [
+	  {
+		"stripe_payment": {
+		  "file_path": "dms/esa_stg/dwh_stripe/stripe_payment/",
+		  "load_type": "cdc",
+		  "delimiter": "|"
+		},
+		"stripe_refund": {
+		  "file_path": "dms/esa_stg/dwh_stripe/stripe_refund/",
+		  "load_type": "cdc",
+		  "delimiter": "|"
+		},
+		"stripe_dispute": {
+		  "file_path": "dms/esa_stg/dwh_stripe/stripe_dispute/",
+		  "load_type": "cdc",
+		  "delimiter": "|"
+		}
+	  }
+	]
+  }
